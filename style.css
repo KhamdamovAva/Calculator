@@ -14,7 +14,7 @@ body {
   width: 400px;
   min-height: 580px;
   background-color: rgb(29, 27, 27);
-  margin: 40px auto;
+  margin: 50px auto;
   border-radius: 20px;
   padding: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -47,7 +47,7 @@ body {
   font-weight: bold;
   background-color: rgba(128, 128, 128, 0.372);
   cursor: pointer;
-  transition: all ease 0.5s;
+  transition: ease-out 0.5s;
 }
 .button:hover {
   background-color: #536976;
@@ -61,4 +61,23 @@ body {
 }
 .btn-gray {
   background-color: gray;
+}
+
+@media screen and (max-width: 460px) {
+  .calculator {
+    width: 320px;
+    min-height: 500px;
+    margin: 60px auto;
+  }
+  .zero-btn {
+    padding: 24px 110px 26px 20px;
+  }
+
+  .button {
+    border-radius: 18px;
+    width: 18%;
+    height: 60px;
+    margin: 6px 9px;
+    font-size: 19px;
+  }
 }
