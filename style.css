@@ -66,7 +66,7 @@ body {
 @media screen and (max-width: 460px) {
   .calculator {
     width: 340px;
-    min-height: 500px;
+    min-height: 480px;
     margin: 60px auto;
   }
   .zero-btn {
@@ -79,5 +79,8 @@ body {
     height: 60px;
     margin: 6px 9px;
     font-size: 19px;
+  }
+  .display {
+    font-size: 55px;
   }
 }
